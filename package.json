@@ -1,0 +1,43 @@
+{
+  "name": "dayfox-vsc",
+  "displayName": "Dayfox",
+  "description": "Port of the Dayfox variant from EdenEast/nightfox.nvim",
+  "homepage": "https://github.com/michalpopek/dayfox-vsc/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/michalpopek/dayfox-vsc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michalpopek/dayfox-vsc.git"
+  },
+  "publisher": "michalpopek",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.79.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dayfox",
+        "uiTheme": "vs",
+        "path": "./themes/dayfox-color-theme.json"
+      }
+    ]
+  },
+  "icon": "resources/images/logo.png",
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0",
+    "prettier": "^2.8.8",
+    "pretty-quick": "^3.1.3",
+    "simple-git-hooks": "^2.8.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm pretty-quick --staged"
+  }
+}
