@@ -1,0 +1,1597 @@
+{
+  "colors": {
+    "foreground": "Normal.fg",
+    "focusBorder": "SnacksInputBorder.fg",
+    "progressBar.background": "Title.fg",
+    "selection.background": "Visual.bg",
+    "scrollbar.shadow": "FloatBorder.bg",
+    "activityBar.background": "NeoTreeNormal.bg",
+    "activityBar.foreground": "NeoTreeNormal.fg",
+    "activityBar.inactiveForeground": "BufferLineBuffer.fg",
+    "activityBarBadge.background": "@comment.note.bg",
+    "activityBarBadge.foreground": "@comment.note.fg",
+    "barBadge.background": "@comment.note.bg",
+    "barBadge.foreground": "@comment.note.fg",
+    "breadcrumb.foregreound": "Normal.fg",
+    "button.background": "@comment.note.bg",
+    "button.foreground": "@comment.note.fg",
+    "button.hoverBackground": "NeoTreeDotfile.fg",
+    "button.secondaryBackground": "CursorLine.bg",
+    "button.secondaryForeground": "Normal.fg",
+    "button.secondaryHoverBackground": "NonText.fg",
+    "debugToolBar.background": "FloatBorder.bg",
+    "diffEditor.insertedLineBackground": "DiffAdd.bg",
+    "diffEditor.removedLineBackground": "DiffDelete.bg",
+    "editor.background": "Normal.bg",
+    "editor.foreground": "Normal.fg",
+    "editor.lineHighlightBackground": "CursorLine.bg",
+    "editor.lineHighlightBorder": "CursorLine.bg",
+    "editor.findMatchBackground": "CurSearch.bg",
+    "editor.findMatchHighlightBackground": "Search.bg",
+    "editor.selectionBackground": "Visual.bg",
+    "editor.selectionForeground": "Normal.fg",
+    "editor.selectionHighlightBackground": "Visual.bg",
+    "editor.wordHighlightBackground": "Visual.bg",
+    "editorBracketHighlight.foreground1": "RainbowDelimiterYellow.fg",
+    "editorBracketHighlight.foreground2": "RainbowDelimiterBlue.fg",
+    "editorBracketHighlight.foreground3": "RainbowDelimiterOrange.fg",
+    "editorBracketHighlight.foreground4": "RainbowDelimiterGreen.fg",
+    "editorBracketHighlight.foreground5": "RainbowDelimiterViolet.fg",
+    "editorBracketHighlight.foreground6": "RainbowDelimiterCyan.fg",
+    "editorBracketHighlight.unexpectedBracket.foreground": "RainbowDelimiterRed.fg",
+    "editorCodeLens.foreground": "LspCodeLens.fg",
+    "editorCursor.foreground": "Cursor.bg",
+    "editorCursor.background": "Cursor.fg",
+    "editorGroupHeader.border": "WinSeparator.fg",
+    "editorGroupHeader.tabsBackground": "BufferLineFill.bg",
+    "editorGroupHeader.tabsBorder": "Normal.bg",
+    "editorGutter.background": "Normal.bg",
+    "editorGutter.addedBackground": "GitSignsAdd.fg",
+    "editorGutter.deletedBackground": "GitSignsDelete.fg",
+    "editorGutter.modifiedBackground": "GitSignsChange.fg",
+    "editorIndentGuide.background": "SnacksIndent.fg",
+    "editorIndentGuide.activeBackground1": "SnacksIndent1.fg",
+    "editorIndentGuide.activeBackground2": "SnacksIndent2.fg",
+    "editorIndentGuide.activeBackground3": "SnacksIndent3.fg",
+    "editorIndentGuide.activeBackground4": "SnacksIndent4.fg",
+    "editorIndentGuide.activeBackground5": "SnacksIndent5.fg",
+    "editorIndentGuide.activeBackground6": "SnacksIndent6.fg",
+    "editorLightBulb.foreground": "MiniIconsYellow.fg",
+    "editorLineNumber.foreground": "LineNr.fg",
+    "editorError.foreground": "DiagnosticError.fg",
+    "editorWarning.foreground": "DiagnosticWarn.fg",
+    "editorHint.foreground": "DiagnosticHint.fg",
+    "editorWidget.background": "FloatBorder.bg",
+    "editorWidget.foreground": "Normal.fg",
+    "editorWidget.resizeBorder": "FloatBorder.fg",
+    "editorSuggestWidget.background": "Pmenu.bg",
+    "editorSuggestWidget.foreground": "Pmenu.fg",
+    "editorSuggestWidget.selectedBackground": "PmenuSel.bg",
+    "editorSuggestWidget.highlightForeground": "BlinkCmpLabelMatch.fg",
+    "editorHoverWidget.background": "FloatBorder.bg",
+    "editorHoverWidget.foreground": "Normal.fg",
+    "errorLens.errorBackground": "DiagnosticVirtualTextError.bg",
+    "errorLens.errorForeground": "DiagnosticVirtualTextError.fg",
+    "errorLens.warningBackground": "DiagnosticVirtualTextWarn.bg",
+    "errorLens.warningForeground": "DiagnosticVirtualTextWarn.fg",
+    "errorLens.infoBackground": "DiagnosticVirtualTextInfo.bg",
+    "errorLens.infoForeground": "DiagnosticVirtualTextInfo.fg",
+    "errorLens.hintBackground": "DiagnosticVirtualTextHint.bg",
+    "errorLens.hintForeground": "DiagnosticVirtualTextHint.fg",
+    "gitDecoration.addedResourceForeground": "NeoTreeGitAdded.fg",
+    "gitDecoration.modifiedResourceForeground": "NeoTreeGitModified.fg",
+    "gitDecoration.deletedResourceForeground": "NeoTreeGitDeleted.fg",
+    "gitDecoration.untrackedResourceForeground": "NeoTreeGitUntracked.fg",
+    "gitDecoration.ignoredResourceForeground": "NeoTreeGitIgnored.fg",
+    "gitDecoration.conflictingResourceForeground": "NeoTreeGitConflict.fg",
+    "input.foreground": "Normal.fg",
+    "input.background": "Normal.bg",
+    "input.placeholderForeground": "Comment.fg",
+    "inputOption.activeForeground": "Normal.fg",
+    "inputOption.activeBackground": "Visual.bg",
+    "inputOption.activeBorder": "Visual.bg",
+    "keybindingLabel.background": "FloatBorder.bg",
+    "keybindingLabel.foreground": "FloatBorder.fg",
+    "keybindingLabel.border": "FloatBorder.fg",
+    "keybindingLabel.bottomBorder": "FloatBorder.fg",
+    "list.activeSelectionBackground": "NeoTreeCursorLine.bg",
+    "list.activeSelectionForeground": "Normal.fg",
+    "list.activeSelectionIconForeground": "Normal.fg",
+    "list.dropBackground": "Normal.bg",
+    "list.highlightForeground": "BlinkCmpLabelMatch.fg",
+    "list.hoverBackground": "Normal.bg",
+    "list.inactiveSelectionBackground": "BufferLineBufferSelected.bg",
+    "list.errorForeground": "DiagnosticError.fg",
+    "list.warningForeground": "DiagnosticWarn.fg",
+    "listFilterWidget.background": "FloatBorder.bg",
+    "listFilterWidget.noMatchesOutline": "DiagnosticError.fg",
+    "panel.background": "FloatBorder.bg",
+    "panelTitle.activeBackground": "BufferLineBufferSelected.bg",
+    "panelTitle.activeForeground": "BufferLineBufferSelected.fg",
+    "panelTitle.inactiveBackground": "NeoTreeNormal.bg",
+    "panelTitle.inactiveForeground": "BufferLineBufferVisible.fg",
+    "panelInput.border": "NeoTreeNormal.bg",
+    "peekView.border": "FloatBorder.fg",
+    "peekViewTitle.background": "FloatTitle.bg",
+    "peekViewTitleLabel.foreground": "FloatTitle.fg",
+    "peekViewTitleDescription.foreground": "FloatBorder.fg",
+    "pickerGroup.border": "FloatBorder.fg",
+    "pickerGroup.foreground": "FloatBorder.fg",
+    "scrollbarSlider.background": "Visual.bg",
+    "scrollbarSlider.hoverBackground": "Visual.bg",
+    "scrollbarSlider.activeBackground": "Normal.bg",
+    "searchEditor.findMatchBackground": "Search.bg",
+    "sideBar.background": "NeoTreeNormal.bg",
+    "sideBar.foreground": "NeoTreeNormal.fg",
+    "sideBar.border": "NeoTreeNormal.bg",
+    "sideBarSectionHeader.background": "NeoTreeNormal.bg",
+    "sideBarSectionHeader.foreground": "NeoTreeNormal.fg",
+    "sideBarSectionHeader.border": "Normal.bg",
+    "sideBarTitle.foreground": "Normal.fg",
+    "statusBar.background": "lualine_c_normal.bg",
+    "statusBar.foreground": "lualine_c_normal.fg",
+    "statusBar.border": "lualine_c_normal.bg",
+    "statusBar.debuggingBackground": "lualine_a_terminal.bg",
+    "statusBar.debuggingForeground": "lualine_a_terminal.fg",
+    "statusBar.noFolderBackground": "lualine_a_visual.bg",
+    "statusBar.noFolderForeground": "lualine_a_visual.fg",
+    "statusBarItem.remoteBackground": "lualine_a_normal.bg",
+    "statusBarItem.remoteForeground": "lualine_a_normal.fg",
+    "tab.border": "BufferLineSeparator.fg",
+    "tab.activeBackground": "BufferLineBufferSelected.bg",
+    "tab.activeForeground": "BufferLineBufferSelected.fg",
+    "tab.inactiveBackground": "NeoTreeNormal.bg",
+    "tab.inactiveForeground": "BufferLineBufferVisible.fg",
+    "tab.hoverBackground": "NeoTreeNormal.bg",
+    "terminal.background": "FloatBorder.bg",
+    "terminal.foreground": "Normal.fg",
+    "terminal.initialHintForeground": "Comment.fg",
+    "terminal.selectionBackground": "Visual.bg",
+    "terminalCursor.foreground": "Cursor.fg",
+    "terminalCursor.background": "Cursor.bg",
+    "textLink.foreground": "@markup.link.label.fg",
+    "titleBar.activeBackground": "NeoTreeNormal.bg",
+    "titleBar.activeForeground": "NeoTreeNormal.fg",
+    "titleBar.inactiveBackground": "Normal.bg",
+    "titleBar.inactiveForeground": "Normal.fg",
+    "titleBar.border": "Normal.bg",
+    "tree.inactiveIndentGuidesStroke": "SnacksIndent.fg",
+    "tree.indentGuidesStroke": "SnacksIndent1.fg"
+  },
+  "semanticTokenColors": {
+    "namespace": "@lsp.type.namespace.fg",
+    "class": "@lsp.type.class.fg",
+    "class.defaultLibrary": "@lsp.typemod.class.defaultLibrary.fg",
+    "enum": "@lsp.type.enum.fg",
+    "enum.defaultLibrary": "@lsp.typemod.enum.defaultLibrary.fg",
+    "interface": "@lsp.type.interface.fg",
+    "struct": "@lsp.type.struct.fg",
+    "typeParameter": "@lsp.type.type.fg",
+    "type": "@lsp.type.type.fg",
+    "type.defaultLibrary": "@lsp.typemod.type.defaultLibrary.fg",
+    "parameter": "@lsp.type.parameter.fg",
+    "variable": "@variable.fg",
+    "variable.defaultLibrary": "@lsp.typemod.variable.defaultLibrary.fg",
+    "property": "@lsp.type.property.fg",
+    "enumMember": "@lsp.type.enumMember.fg",
+    "enumMember.defaultLibrary": "@lsp.typemod.enumMember.defaultLibrary.fg",
+    "decorator": "@lsp.type.decorator.fg",
+    "event": "@lsp.type.event.fg",
+    "function": "@lsp.type.function.fg",
+    "function.defaultLibrary": "@lsp.typemod.function.defaultLibrary.fg",
+    "method": "@lsp.type.function.fg",
+    "method.defaultLibrary": "@lsp.typemod.function.defaultLibrary.fg",
+    "macro": "@lsp.type.macro.fg",
+    "macro.defaultLibrary": "@lsp.typemod.macro.defaultLibrary.fg",
+    "label": "@label.fg",
+    "comment": "@lsp.type.comment.fg",
+    "string": "@lsp.type.string.fg",
+    "keyword": "@lsp.type.keyword.fg",
+    "number": "@lsp.type.number.fg",
+    "regexp": "@lsp.type.regexp.fg",
+    "operator": "@lsp.type.operator.fg"
+  },
+  "tokenColors": [
+    {
+      "name": "Basic text & variable names (incl. leading punctuation)",
+      "scope": [
+        "text",
+        "source",
+        "variable.other.readwrite",
+        "punctuation.definition.variable"
+      ],
+      "settings": {
+        "foreground": "@text.fg"
+      }
+    },
+    {
+      "name": "Parentheses, Brackets, Braces",
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "@punctuation.bracket.fg"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "@lsp.type.comment.fg"
+      }
+    },
+    {
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "scope": "constant.character.escape",
+      "settings": {
+        "foreground": "@lsp.type.escapeSequence.fg"
+      }
+    },
+    {
+      "name": "Booleans, constants, numbers",
+      "scope": [
+        "constant.numeric",
+        "variable.other.constant",
+        "entity.name.constant",
+        "constant.language.boolean",
+        "constant.language.false",
+        "constant.language.true",
+        "keyword.other.unit.user-defined",
+        "keyword.other.unit.suffix.floating-point"
+      ],
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.operator.word",
+        "keyword.operator.new",
+        "variable.language.super",
+        "support.type.primitive",
+        "storage.type",
+        "storage.modifier",
+        "punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "scope": "entity.name.tag.documentation",
+      "settings": {
+        "foreground": "@tag.fg"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "keyword.operator",
+        "punctuation.accessor",
+        "punctuation.definition.generic",
+        "meta.function.closure punctuation.section.parameters",
+        "punctuation.definition.tag",
+        "punctuation.separator.key-value"
+      ],
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "meta.function-call.method",
+        "support.function",
+        "support.function.misc",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Classes",
+      "scope": [
+        "entity.name.class",
+        "entity.other.inherited-class",
+        "support.class",
+        "meta.function-call.constructor",
+        "entity.name.struct"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Enum",
+      "scope": "entity.name.enum",
+      "settings": {
+        "foreground": "@lsp.type.enum.fg"
+      }
+    },
+    {
+      "name": "Enum member",
+      "scope": [
+        "meta.enum variable.other.readwrite",
+        "variable.other.enummember"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.enumMember.fg"
+      }
+    },
+    {
+      "name": "Object properties",
+      "scope": "meta.property.object",
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": [
+        "meta.type",
+        "meta.type-alias",
+        "support.type",
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Decorators",
+      "scope": [
+        "meta.annotation variable.function",
+        "meta.annotation variable.annotation.function",
+        "meta.annotation punctuation.definition.annotation",
+        "meta.decorator",
+        "punctuation.decorator"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.decorator.fg"
+      }
+    },
+    {
+      "scope": ["variable.parameter", "meta.function.parameters"],
+      "settings": {
+        "foreground": "@lsp.type.parameter.fg"
+      }
+    },
+    {
+      "name": "Built-ins",
+      "scope": ["constant.language", "support.function.builtin"],
+      "settings": {
+        "foreground": "@function.builtin.fg"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.documentation",
+      "settings": {
+        "foreground": "@attribute.fg"
+      }
+    },
+    {
+      "name": "Preprocessor directives",
+      "scope": [
+        "keyword.control.directive",
+        "punctuation.definition.directive"
+      ],
+      "settings": {
+        "foreground": "PreProc.fg"
+      }
+    },
+    {
+      "name": "Type parameters",
+      "scope": "punctuation.definition.typeparameters",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Namespaces",
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "@lsp.type.namespace.fg"
+      }
+    },
+    {
+      "name": "Property names (left hand assignments in json/yaml/css)",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "This/Self keyword",
+      "scope": [
+        "variable.language.this",
+        "variable.language.this punctuation.definition.variable"
+      ],
+      "settings": {
+        "foreground": "@lsp.typeMod.variable.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "Object properties",
+      "scope": "variable.object.property",
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "String template interpolation",
+      "scope": ["string.template variable", "string variable"],
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "`new` as bold",
+      "scope": "keyword.operator.new",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "C++ extern keyword",
+      "scope": "storage.modifier.specifier.extern.cpp",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "C++ scope resolution",
+      "scope": [
+        "entity.name.scope-resolution.template.call.cpp",
+        "entity.name.scope-resolution.parameter.cpp",
+        "entity.name.scope-resolution.cpp",
+        "entity.name.scope-resolution.function.definition.cpp"
+      ],
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "name": "C++ operators",
+      "scope": "storage.modifier.reference.cpp",
+      "settings": {
+        "foreground": "@lsp.type.operator.fg"
+      }
+    },
+    {
+      "name": "C# Interpolated Strings",
+      "scope": "meta.interpolation.cs",
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "name": "Classes, reflecting the className color in JSX",
+      "scope": [
+        "source.css entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": "punctuation.separator.operator.css",
+      "settings": {
+        "foreground": "@lsp.type.operator.fg"
+      }
+    },
+    {
+      "name": "Pseudo classes",
+      "scope": "source.css entity.other.attribute-name.pseudo-class",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "scope": "source.css constant.other.unicode-range",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "scope": "source.css variable.parameter.url",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "CSS vendored property names",
+      "scope": "support.type.vendored.property-name",
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "Less/SCSS right-hand variables (@/$-prefixed)",
+      "scope": [
+        "source.css meta.property-value variable",
+        "source.css meta.property-value variable.other.less",
+        "source.css meta.property-value variable.other.less punctuation.definition.variable.less",
+        "meta.definition.variable.scss"
+      ],
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "CSS variables (--prefixed)",
+      "scope": [
+        "source.css meta.property-list variable",
+        "meta.property-list variable.other.less",
+        "meta.property-list variable.other.less punctuation.definition.variable.less"
+      ],
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "CSS Percentage values, styled the same as numbers",
+      "scope": "keyword.other.unit.percentage.css",
+      "settings": {
+        "foreground": "@number.fg"
+      }
+    },
+    {
+      "name": "CSS Attribute selectors, styled the same as strings",
+      "scope": "source.css meta.attribute-selector",
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "name": "JSON/YAML keys, other left-hand assignments",
+      "scope": [
+        "keyword.other.definition.ini",
+        "punctuation.support.type.property-name.json",
+        "support.type.property-name.json",
+        "punctuation.support.type.property-name.toml",
+        "support.type.property-name.toml",
+        "entity.name.tag.yaml",
+        "punctuation.support.type.property-name.yaml",
+        "support.type.property-name.yaml"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "JSON/YAML constants",
+      "scope": ["constant.language.json", "constant.language.yaml"],
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "YAML anchors",
+      "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
+      "settings": {
+        "foreground": "@lsp.type.namespace.fg"
+      }
+    },
+    {
+      "name": "TOML tables / ini groups",
+      "scope": [
+        "support.type.property-name.table",
+        "entity.name.section.group-title.ini"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.namespace.fg"
+      }
+    },
+    {
+      "name": "TOML dates",
+      "scope": "constant.other.time.datetime.offset.toml",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "YAML anchor puctuation",
+      "scope": [
+        "punctuation.definition.anchor.yaml",
+        "punctuation.definition.alias.yaml"
+      ],
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "name": "YAML triple dashes",
+      "scope": "entity.other.document.begin.yaml",
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "name": "Markup Diff",
+      "scope": "markup.changed.diff",
+      "settings": {
+        "foreground": "@diff.delta.fg"
+      }
+    },
+    {
+      "name": "Diff",
+      "scope": [
+        "meta.diff.header.from-file",
+        "meta.diff.header.to-file",
+        "punctuation.definition.from-file.diff",
+        "punctuation.definition.to-file.diff"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "Diff Inserted",
+      "scope": "markup.inserted.diff",
+      "settings": {
+        "foreground": "@diff.plus.fg"
+      }
+    },
+    {
+      "name": "Diff Deleted",
+      "scope": "markup.deleted.diff",
+      "settings": {
+        "foreground": "@diff.minus.fg"
+      }
+    },
+    {
+      "name": "dotenv left-hand side assignments",
+      "scope": "variable.other.env",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "dotenv reference to existing env variable",
+      "scope": "string.quoted variable.other.env",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "GDScript functions",
+      "scope": "support.function.builtin.gdscript",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "GDScript constants",
+      "scope": "constant.language.gdscript",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "Comment keywords",
+      "scope": "comment meta.annotation.go",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "go:embed, go:build, etc.",
+      "scope": "comment meta.annotation.parameters.go",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "Go constants (nil, true, false)",
+      "scope": "constant.language.go",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "GraphQL variables",
+      "scope": "variable.graphql",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "GraphQL aliases",
+      "scope": "string.unquoted.alias.graphql",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "GraphQL enum members",
+      "scope": "constant.character.enum.graphql",
+      "settings": {
+        "foreground": "@lsp.type.enumMember.fg"
+      }
+    },
+    {
+      "name": "GraphQL field in types",
+      "scope": "meta.objectvalues.graphql constant.object.key.graphql string.unquoted.graphql",
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "HTML/XML DOCTYPE as keyword",
+      "scope": [
+        "keyword.other.doctype",
+        "meta.tag.sgml.doctype punctuation.definition.tag",
+        "meta.tag.metadata.doctype entity.name.tag",
+        "meta.tag.metadata.doctype punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "HTML/XML-like <tags/>",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "@tag.fg"
+      }
+    },
+    {
+      "name": "Special characters like &amp;",
+      "scope": [
+        "text.html constant.character.entity",
+        "text.html constant.character.entity punctuation",
+        "constant.character.entity.xml",
+        "constant.character.entity.xml punctuation",
+        "constant.character.entity.js.jsx",
+        "constant.charactger.entity.js.jsx punctuation",
+        "constant.character.entity.tsx",
+        "constant.character.entity.tsx punctuation"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.escapeSequence.fg"
+      }
+    },
+    {
+      "name": "HTML/XML tag attribute values",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "Components",
+      "scope": [
+        "support.class.component",
+        "support.class.component.jsx",
+        "support.class.component.tsx",
+        "support.class.component.vue"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Annotations",
+      "scope": ["punctuation.definition.annotation", "storage.type.annotation"],
+      "settings": {
+        "foreground": "@lsp.type.decorator.fg"
+      }
+    },
+    {
+      "name": "Java enums",
+      "scope": "constant.other.enum.java",
+      "settings": {
+        "foreground": "@lsp.type.enum.fg"
+      }
+    },
+    {
+      "name": "Java imports",
+      "scope": "storage.modifier.import.java",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "Javadoc",
+      "scope": "comment.block.javadoc.java keyword.other.documentation.javadoc.java",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Exported Variable",
+      "scope": "meta.export variable.other.readwrite.js",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "JS/TS constants & properties",
+      "scope": ["variable.other.constant.js", "variable.other.constant.ts"],
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "scope": ["variable.other.property.js", "variable.other.property.ts"],
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "JSDoc; these are mainly params, so styled as such",
+      "scope": [
+        "variable.other.jsdoc",
+        "comment.block.documentation variable.other"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.parameter.fg"
+      }
+    },
+    {
+      "scope": "support.type.object.console.js",
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Node constants as keywords (module, etc.)",
+      "scope": ["support.constant.node", "support.type.object.module.js"],
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "implements as keyword",
+      "scope": "storage.modifier.implements",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "Builtin types",
+      "scope": [
+        "constant.language.null.js",
+        "constant.language.null.ts",
+        "constant.language.undefined.js",
+        "constant.language.undefined.ts",
+        "support.type.builtin.ts"
+      ],
+      "settings": {
+        "foreground": "@lsp.typeMod.type.defaultLibrary.fg"
+      }
+    },
+    {
+      "scope": "variable.parameter.generic",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Arrow functions",
+      "scope": [
+        "keyword.declaration.function.arrow.js",
+        "storage.type.function.arrow.ts"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Decorator punctuations (decorators inherit from blue functions, instead of styleguide peach)",
+      "scope": "punctuation.decorator.ts",
+      "settings": {
+        "foreground": "@lsp.type.decorator.fg"
+      }
+    },
+    {
+      "name": "Extra JS/TS keywords",
+      "scope": [
+        "keyword.operator.expression.in.js",
+        "keyword.operator.expression.in.ts",
+        "keyword.operator.expression.infer.ts",
+        "keyword.operator.expression.instanceof.js",
+        "keyword.operator.expression.instanceof.ts",
+        "keyword.operator.expression.is",
+        "keyword.operator.expression.keyof.ts",
+        "keyword.operator.expression.of.js",
+        "keyword.operator.expression.of.ts",
+        "keyword.operator.expression.typeof.ts"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "Julia macros",
+      "scope": "support.function.macro.julia",
+      "settings": {
+        "foreground": "@lsp.type.macro.fg"
+      }
+    },
+    {
+      "name": "Julia language constants (true, false)",
+      "scope": "constant.language.julia",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "Julia other constants (these seem to be arguments inside arrays)",
+      "scope": "constant.other.symbol.julia",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "LaTeX preamble",
+      "scope": "text.tex keyword.control.preamble",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "LaTeX be functions",
+      "scope": "text.tex support.function.be",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "LaTeX math",
+      "scope": "constant.other.general.math.tex",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "Lua docstring keywords",
+      "scope": "comment.line.double-dash.documentation.lua storage.type.annotation.lua",
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "Lua docstring variables",
+      "scope": [
+        "comment.line.double-dash.documentation.lua entity.name.variable.lua",
+        "comment.line.double-dash.documentation.lua variable.lua"
+      ],
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "scope": [
+        "heading.1.markdown punctuation.definition.heading.markdown",
+        "heading.1.markdown",
+        "markup.heading.atx.1.mdx",
+        "markup.heading.atx.1.mdx punctuation.definition.heading.mdx",
+        "markup.heading.setext.1.markdown",
+        "markup.heading.heading-0.asciidoc"
+      ],
+      "settings": {
+        "foreground": "@markup.heading.fg"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "foreground": "@markup.strong.fg",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "foreground": "Normal.fg",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.strikethrough",
+      "settings": {
+        "foreground": "@markup.strikethrough.fg",
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Markdown auto links",
+      "scope": ["punctuation.definition.link", "markup.underline.link"],
+      "settings": {
+        "foreground": "@markup.link.fg"
+      }
+    },
+    {
+      "name": "Markdown links",
+      "scope": [
+        "text.html.markdown punctuation.definition.link.title",
+        "string.other.link.title.markdown",
+        "markup.link",
+        "punctuation.definition.constant.markdown",
+        "constant.other.reference.link.markdown",
+        "markup.substitution.attribute-reference"
+      ],
+      "settings": {
+        "foreground": "@markup.link.fg"
+      }
+    },
+    {
+      "name": "Markdown code spans",
+      "scope": [
+        "punctuation.definition.raw.markdown",
+        "markup.inline.raw.string.markdown",
+        "markup.raw.block.markdown"
+      ],
+      "settings": {
+        "foreground": "@markup.raw.block.fg"
+      }
+    },
+    {
+      "name": "Markdown triple backtick language identifier",
+      "scope": "fenced_code.block.language",
+      "settings": {
+        "foreground": "@markup.raw.fg"
+      }
+    },
+    {
+      "name": "Markdown triple backticks",
+      "scope": [
+        "markup.fenced_code.block punctuation.definition",
+        "markup.raw support.asciidoc"
+      ],
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "name": "Markdown quotes",
+      "scope": ["markup.quote", "punctuation.definition.quote.begin"],
+      "settings": {
+        "foreground": "@markup.quote.fg"
+      }
+    },
+    {
+      "name": "Markdown separators",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "name": "Markdown list bullets",
+      "scope": [
+        "punctuation.definition.list.begin.markdown",
+        "markup.list.bullet"
+      ],
+      "settings": {
+        "foreground": "@markup.list.fg"
+      }
+    },
+    {
+      "name": "Nix attribute names",
+      "scope": [
+        "entity.other.attribute-name.multipart.nix",
+        "entity.other.attribute-name.single.nix"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "Nix parameter names",
+      "scope": "variable.parameter.name.nix",
+      "settings": {
+        "foreground": "@lsp.type.parameter.fg"
+      }
+    },
+    {
+      "name": "Nix interpolated parameter names",
+      "scope": "meta.embedded variable.parameter.name.nix",
+      "settings": {
+        "foreground": "@lsp.type.parameter.fg"
+      }
+    },
+    {
+      "name": "Nix paths",
+      "scope": "string.unquoted.path.nix",
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "name": "PHP Attributes",
+      "scope": ["support.attribute.builtin", "meta.attribute.php"],
+      "settings": {
+        "foreground": "@lsp.type.property.fg"
+      }
+    },
+    {
+      "name": "PHP Parameters (needed for the leading dollar sign)",
+      "scope": "meta.function.parameters.php punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "@lsp.type.parameter.fg"
+      }
+    },
+    {
+      "name": "PHP Constants (null, __FILE__, etc.)",
+      "scope": "constant.language.php",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "PHP functions",
+      "scope": "text.html.php support.function",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Python argument functions reset to text, otherwise they inherit blue from function-call",
+      "scope": [
+        "support.variable.magic.python",
+        "meta.function-call.arguments.python"
+      ],
+      "settings": {
+        "foreground": "@text.fg"
+      }
+    },
+    {
+      "name": "Python double underscore functions",
+      "scope": "support.function.magic.python",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Python `self` keyword",
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "@lsp.typeMod.variable.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "python keyword flow/logical (for ... in)",
+      "scope": [
+        "keyword.control.flow.python",
+        "keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "python storage type",
+      "scope": "storage.type.function.python",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "python function support",
+      "scope": [
+        "support.token.decorator.python",
+        "meta.function.decorator.identifier.python"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.decorator.fg"
+      }
+    },
+    {
+      "name": "python function calls",
+      "scope": "meta.function-call.python",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "python function decorators",
+      "scope": [
+        "entity.name.function.decorator.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.decorator.fg"
+      }
+    },
+    {
+      "name": "python placeholder reset to normal string",
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "name": "Python exception & builtins such as exit()",
+      "scope": [
+        "support.type.exception.python",
+        "support.function.builtin.python"
+      ],
+      "settings": {
+        "foreground": "@lsp.typeMod.function.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "entity.name.type",
+      "scope": "support.type.python",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "python constants (True/False)",
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "Arguments accessed later in the function body",
+      "scope": ["meta.indexed-name.python", "meta.item-access.python"],
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "Python f-strings/binary/unicode storage types",
+      "scope": "storage.type.string.python",
+      "settings": {
+        "foreground": "@lsp.typeMod.string.injected.fg"
+      }
+    },
+    {
+      "name": "Python type hints",
+      "scope": "meta.function.parameters.python",
+      "settings": {
+        "fontStyle": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Regex string begin/end in JS/TS",
+      "scope": [
+        "string.regexp punctuation.definition.string.begin",
+        "string.regexp punctuation.definition.string.end"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.regexp.fg"
+      }
+    },
+    {
+      "name": "Regex anchors (^, $)",
+      "scope": "keyword.control.anchor.regexp",
+      "settings": {
+        "foreground": "@lsp.type.escapeSequence.fg"
+      }
+    },
+    {
+      "name": "Regex regular string match",
+      "scope": "string.regexp.ts",
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "name": "Regex group parenthesis & backreference (\\1, \\2, \\3, ...)",
+      "scope": [
+        "punctuation.definition.group.regexp",
+        "keyword.other.back-reference.regexp"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.escapeSequence.fg"
+      }
+    },
+    {
+      "name": "Regex character class []",
+      "scope": "punctuation.definition.character-class.regexp",
+      "settings": {
+        "foreground": "@lsp.type.regexp.fg"
+      }
+    },
+    {
+      "name": "Regex character classes (\\d, \\w, \\s)",
+      "scope": "constant.other.character-class.regexp",
+      "settings": {
+        "foreground": "@lsp.type.escapeSequence.fg"
+      }
+    },
+    {
+      "name": "Regex range",
+      "scope": "constant.other.character-class.range.regexp",
+      "settings": {
+        "foreground": "@lsp.type.regexp.fg"
+      }
+    },
+    {
+      "name": "Regex quantifier",
+      "scope": "keyword.operator.quantifier.regexp",
+      "settings": {
+        "foreground": "@lsp.type.regexp.fg"
+      }
+    },
+    {
+      "name": "Regex constant/numeric",
+      "scope": "constant.character.numeric.regexp",
+      "settings": {
+        "foreground": "@lsp.type.regexp.fg"
+      }
+    },
+    {
+      "name": "Regex lookaheads, negative lookaheads, lookbehinds, negative lookbehinds",
+      "scope": [
+        "punctuation.definition.group.no-capture.regexp",
+        "meta.assertion.look-ahead.regexp",
+        "meta.assertion.negative-look-ahead.regexp"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Rust attribute",
+      "scope": [
+        "meta.annotation.rust",
+        "meta.annotation.rust punctuation",
+        "meta.attribute.rust",
+        "punctuation.definition.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.decorator.fg"
+      }
+    },
+    {
+      "name": "Rust keyword",
+      "scope": [
+        "entity.name.function.macro.rules.rust",
+        "storage.type.module.rust",
+        "storage.modifier.rust",
+        "storage.type.struct.rust",
+        "storage.type.enum.rust",
+        "storage.type.trait.rust",
+        "storage.type.union.rust",
+        "storage.type.impl.rust",
+        "storage.type.rust",
+        "storage.type.function.rust",
+        "storage.type.type.rust"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.keyword.fg"
+      }
+    },
+    {
+      "name": "Rust u/i32, u/i64, etc.",
+      "scope": "entity.name.type.numeric.rust",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Rust generic",
+      "scope": "meta.generic.rust",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Rust impl",
+      "scope": "entity.name.impl.rust",
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Rust module",
+      "scope": "entity.name.module.rust",
+      "settings": {
+        "foreground": "@lsp.type.namespace.fg"
+      }
+    },
+    {
+      "name": "Rust trait",
+      "scope": "entity.name.trait.rust",
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Rust struct",
+      "scope": "storage.type.source.rust",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Rust union",
+      "scope": "entity.name.union.rust",
+      "settings": {
+        "foreground": "@lsp.type.class.fg"
+      }
+    },
+    {
+      "name": "Rust enum member",
+      "scope": "meta.enum.rust storage.type.source.rust",
+      "settings": {
+        "foreground": "@lsp.type.enumMember.fg"
+      }
+    },
+    {
+      "name": "Rust macro",
+      "scope": [
+        "support.macro.rust",
+        "meta.macro.rust support.function.rust",
+        "entity.name.function.macro.rust"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.macro.fg"
+      }
+    },
+    {
+      "name": "Rust lifetime",
+      "scope": ["storage.modifier.lifetime.rust", "entity.name.type.lifetime"],
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Rust string formatting",
+      "scope": "string.quoted.double.rust constant.other.placeholder.rust",
+      "settings": {
+        "foreground": "@lsp.type.string.fg"
+      }
+    },
+    {
+      "name": "Rust return type generic",
+      "scope": "meta.function.return-type.rust meta.generic.rust storage.type.rust",
+      "settings": {
+        "foreground": "@lsp.type.type.fg"
+      }
+    },
+    {
+      "name": "Rust functions",
+      "scope": "meta.function.call.rust",
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Rust angle brackets",
+      "scope": "punctuation.brackets.angle.rust",
+      "settings": {
+        "foreground": "@punctuation.bracket.fg"
+      }
+    },
+    {
+      "name": "Rust constants",
+      "scope": "constant.other.caps.rust",
+      "settings": {
+        "foreground": "@constant.fg"
+      }
+    },
+    {
+      "name": "Rust function parameters",
+      "scope": "meta.function.definition.rust variable.other.rust",
+      "settings": {
+        "foreground": "@lsp.type.parameter.fg"
+      }
+    },
+    {
+      "name": "Rust closure variables",
+      "scope": "meta.function.call.rust variable.other.rust",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "Rust self",
+      "scope": "variable.language.self.rust",
+      "settings": {
+        "foreground": "@lsp.typeMod.variable.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "Rust metavariable names",
+      "scope": [
+        "variable.other.metavariable.name.rust",
+        "meta.macro.metavariable.rust keyword.operator.macro.dollar.rust"
+      ],
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "name": "Shell shebang",
+      "scope": [
+        "comment.line.shebang",
+        "comment.line.shebang punctuation.definition.comment",
+        "comment.line.shebang",
+        "punctuation.definition.comment.shebang.shell",
+        "meta.shebang.shell"
+      ],
+      "settings": {
+        "foreground": "@lsp.typeMod.macro.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "Shell shebang command",
+      "scope": "comment.line.shebang constant.language",
+      "settings": {
+        "foreground": "@lsp.typeMod.function.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "Shell interpolated command",
+      "scope": [
+        "meta.function-call.arguments.shell punctuation.definition.variable.shell",
+        "meta.function-call.arguments.shell punctuation.section.interpolation",
+        "meta.function-call.arguments.shell punctuation.definition.variable.shell",
+        "meta.function-call.arguments.shell punctuation.section.interpolation"
+      ],
+      "settings": {
+        "foreground": "@lsp.type.function.fg"
+      }
+    },
+    {
+      "name": "Shell interpolated command variable",
+      "scope": "meta.string meta.interpolation.parameter.shell variable.other.readwrite",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "scope": [
+        "source.shell punctuation.section.interpolation",
+        "punctuation.definition.evaluation.backticks.shell"
+      ],
+      "settings": {
+        "foreground": "@punctuation.fg"
+      }
+    },
+    {
+      "name": "Shell EOF",
+      "scope": "entity.name.tag.heredoc.shell",
+      "settings": {
+        "foreground": "@lsp.typeMod.macro.defaultLibrary.fg"
+      }
+    },
+    {
+      "name": "Shell quoted variable",
+      "scope": "string.quoted.double.shell variable.other.normal.shell",
+      "settings": {
+        "foreground": "@variable.fg"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading.synopsis.man",
+        "markup.heading.title.man",
+        "markup.heading.other.man",
+        "markup.heading.env.man"
+      ],
+      "settings": {
+        "foreground": "@markup.heading.fg"
+      }
+    },
+    {
+      "scope": "markup.heading.commands.man",
+      "settings": {
+        "foreground": "@markup.heading.fg"
+      }
+    },
+    {
+      "scope": "markup.heading.env.man",
+      "settings": {
+        "foreground": "@markup.heading.fg"
+      }
+    }
+  ]
+}
