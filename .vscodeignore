@@ -1,3 +1,11 @@
+.envrc
+.direnv/
+flake.nix
+flake.lock
+themes/*
+!themes/nordfox.json
+demo/
+
 .vscode/**
 .vscode-test/**
 .gitignore
