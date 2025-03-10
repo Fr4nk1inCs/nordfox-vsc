@@ -226,19 +226,13 @@
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "@lsp.type.comment.fg"
       }
     },
     {
-      "scope": [
-        "string",
-        "punctuation.definition.string"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "@lsp.type.string.fg"
       }
@@ -375,20 +369,14 @@
       }
     },
     {
-      "scope": [
-        "variable.parameter",
-        "meta.function.parameters"
-      ],
+      "scope": ["variable.parameter", "meta.function.parameters"],
       "settings": {
         "foreground": "@lsp.type.parameter.fg"
       }
     },
     {
       "name": "Built-ins",
-      "scope": [
-        "constant.language",
-        "support.function.builtin"
-      ],
+      "scope": ["constant.language", "support.function.builtin"],
       "settings": {
         "foreground": "@function.builtin.fg"
       }
@@ -449,10 +437,7 @@
     },
     {
       "name": "String template interpolation",
-      "scope": [
-        "string.template variable",
-        "string variable"
-      ],
+      "scope": ["string.template variable", "string variable"],
       "settings": {
         "foreground": "@variable.fg"
       }
@@ -595,20 +580,14 @@
     },
     {
       "name": "JSON/YAML constants",
-      "scope": [
-        "constant.language.json",
-        "constant.language.yaml"
-      ],
+      "scope": ["constant.language.json", "constant.language.yaml"],
       "settings": {
         "foreground": "@constant.fg"
       }
     },
     {
       "name": "YAML anchors",
-      "scope": [
-        "entity.name.type.anchor.yaml",
-        "variable.other.alias.yaml"
-      ],
+      "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
       "settings": {
         "foreground": "@lsp.type.namespace.fg"
       }
@@ -813,10 +792,7 @@
     },
     {
       "name": "Annotations",
-      "scope": [
-        "punctuation.definition.annotation",
-        "storage.type.annotation"
-      ],
+      "scope": ["punctuation.definition.annotation", "storage.type.annotation"],
       "settings": {
         "foreground": "@lsp.type.decorator.fg"
       }
@@ -851,19 +827,13 @@
     },
     {
       "name": "JS/TS constants & properties",
-      "scope": [
-        "variable.other.constant.js",
-        "variable.other.constant.ts"
-      ],
+      "scope": ["variable.other.constant.js", "variable.other.constant.ts"],
       "settings": {
         "foreground": "@constant.fg"
       }
     },
     {
-      "scope": [
-        "variable.other.property.js",
-        "variable.other.property.ts"
-      ],
+      "scope": ["variable.other.property.js", "variable.other.property.ts"],
       "settings": {
         "foreground": "@lsp.type.property.fg"
       }
@@ -886,10 +856,7 @@
     },
     {
       "name": "Node constants as keywords (module, etc.)",
-      "scope": [
-        "support.constant.node",
-        "support.type.object.module.js"
-      ],
+      "scope": ["support.constant.node", "support.type.object.module.js"],
       "settings": {
         "foreground": "@lsp.type.keyword.fg"
       }
@@ -1050,10 +1017,7 @@
     },
     {
       "name": "Markdown auto links",
-      "scope": [
-        "punctuation.definition.link",
-        "markup.underline.link"
-      ],
+      "scope": ["punctuation.definition.link", "markup.underline.link"],
       "settings": {
         "foreground": "@markup.link.fg"
       }
@@ -1102,10 +1066,7 @@
     },
     {
       "name": "Markdown quotes",
-      "scope": [
-        "markup.quote",
-        "punctuation.definition.quote.begin"
-      ],
+      "scope": ["markup.quote", "punctuation.definition.quote.begin"],
       "settings": {
         "foreground": "@markup.quote.fg"
       }
@@ -1160,10 +1121,7 @@
     },
     {
       "name": "PHP Attributes",
-      "scope": [
-        "support.attribute.builtin",
-        "meta.attribute.php"
-      ],
+      "scope": ["support.attribute.builtin", "meta.attribute.php"],
       "settings": {
         "foreground": "@lsp.type.property.fg"
       }
@@ -1293,10 +1251,7 @@
     },
     {
       "name": "Arguments accessed later in the function body",
-      "scope": [
-        "meta.indexed-name.python",
-        "meta.item-access.python"
-      ],
+      "scope": ["meta.indexed-name.python", "meta.item-access.python"],
       "settings": {
         "foreground": "@variable.fg"
       }
@@ -1495,10 +1450,7 @@
     },
     {
       "name": "Rust lifetime",
-      "scope": [
-        "storage.modifier.lifetime.rust",
-        "entity.name.type.lifetime"
-      ],
+      "scope": ["storage.modifier.lifetime.rust", "entity.name.type.lifetime"],
       "settings": {
         "foreground": "@lsp.type.type.fg"
       }
