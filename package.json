@@ -11,7 +11,7 @@
     "url": "https://github.com/Fr4nk1inCs/nordfox-vsc.git"
   },
   "publisher": "Fr4nk1in",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "vscode": "^1.79.0"
   },
