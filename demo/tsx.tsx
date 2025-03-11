@@ -15,7 +15,7 @@ export class SearchComponent implements OnInit, OnDestroy {
 
   constructor(
     private searchService: SearchService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
   ) {}
 
   ngOnInit() {
@@ -32,7 +32,7 @@ export class SearchComponent implements OnInit, OnDestroy {
       (data: any) => {
         this.searchResults = data;
       },
-      (error) => console.log(error)
+      (error) => console.log(error),
     );
   }
 
